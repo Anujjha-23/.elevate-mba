@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Apply Now – ElevateMBA</title>
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<nav>
+  <a href="index.html" class="logo">Elevate<span>MBA</span></a>
+  <ul class="nav-links">
+    <li><a href="index.html">Home</a></li>
+    <li><a href="courses.html">Courses</a></li>
+    <li><a href="about.html">About</a></li>
+    <li><a href="faculty.html">Faculty</a></li>
+    <li><a href="testimonials.html">Alumni</a></li>
+    <li><a href="contact.html" class="active">Contact</a></li>
+  </ul>
+  <a href="contact.html" class="nav-cta">Apply Now</a>
+  <div class="hamburger" onclick="toggleMenu()"><span></span><span></span><span></span></div>
+</nav>
+<div class="mobile-nav" id="mobileMenu">
+  <a href="index.html">Home</a><a href="courses.html">Courses</a><a href="about.html">About</a>
+  <a href="faculty.html">Faculty</a><a href="testimonials.html">Alumni</a><a href="contact.html">Contact</a>
+</div>
+
+<div class="page-hero">
+  <div class="page-hero-bg"></div>
+  <span class="section-tag">Admissions Open</span>
+  <h1 class="section-title">Begin Your Application<br>in 10 Minutes</h1>
+  <p class="section-sub">No GMAT required. Applications are reviewed on a rolling basis. Next cohort starts in 6 weeks — only 300 seats available.</p>
+</div>
+
+<!-- CONTACT SECTION -->
+<section class="contact-section">
+  <div class="contact-grid">
+    <div class="contact-info">
+      <span class="section-tag" style="color:var(--gold-light)">Get in Touch</span>
+      <h2 class="section-title">We're Here to Help<br>You Get Started</h2>
+      <p class="section-sub">Our admissions team is available to answer questions, discuss financing, or help you choose the right track.</p>
+      <div class="contact-details">
+        <div class="cd-item"><div class="cd-icon">📧</div><div class="cd-text">admissions@elevatemba.edu</div></div>
+        <div class="cd-item"><div class="cd-icon">📞</div><div class="cd-text">+1 (800) 555-EMBA · Mon–Fri, 9am–6pm EST</div></div>
+        <div class="cd-item"><div class="cd-icon">💬</div><div class="cd-text">Live chat available · Avg. response: 4 minutes</div></div>
+        <div class="cd-item"><div class="cd-icon">🌐</div><div class="cd-text">Fully online · Available in 82 countries</div></div>
+        <div class="cd-item"><div class="cd-icon">🎓</div><div class="cd-text">No GMAT required · Rolling admissions</div></div>
+      </div>
+    </div>
+    <div class="contact-form">
+      <h3>Apply for Admission</h3>
+      <div class="form-row">
+        <div class="form-group"><label>First Name</label><input type="text" placeholder="John"></div>
+        <div class="form-group"><label>Last Name</label><input type="text" placeholder="Smith"></div>
+      </div>
+      <div class="form-group"><label>Email Address</label><input type="email" placeholder="john@example.com"></div>
+      <div class="form-group"><label>Phone Number</label><input type="tel" placeholder="+1 (555) 000-0000"></div>
+      <div class="form-group">
+        <label>Program of Interest</label>
+        <select>
+          <option value="">Select a Specialization</option>
+          <option>Corporate Strategy & Business Innovation</option>
+          <option>FinTech, Investment & Corporate Finance</option>
+          <option>AI, Data Science & Digital Transformation</option>
+          <option>Growth Marketing & Brand Strategy</option>
+          <option>Executive Leadership & Organizational Design</option>
+          <option>Supply Chain & Operations Analytics</option>
+          <option>Entrepreneurship & Startup Strategy</option>
+          <option>ESG Investing & Sustainable Finance</option>
+        </select>
+      </div>
+      <div class="form-group">
+        <label>Years of Work Experience</label>
+        <select>
+          <option>0–2 years</option>
+          <option>3–5 years</option>
+          <option>6–10 years</option>
+          <option>10+ years</option>
+        </select>
+      </div>
+      <div class="form-group">
+        <label>Current Role / Job Title</label>
+        <input type="text" placeholder="e.g. Product Manager at Acme Corp">
+      </div>
+      <div class="form-group">
+        <label>Tell Us About Your Career Goals</label>
+        <textarea placeholder="What do you hope to achieve through this program? What's the next step in your career?"></textarea>
+      </div>
+      <button class="submit-btn" onclick="handleSubmit(this)">Submit Application →</button>
+    </div>
+  </div>
+</section>
+
+<!-- FAQ -->
+<section class="faq-section">
+  <div class="text-center" style="margin-bottom:0">
+    <span class="section-tag">Admissions FAQ</span>
+    <h2 class="section-title">Common Questions</h2>
+  </div>
+  <div class="faq-grid">
+    <div class="faq-item"><h4>Do I need a GMAT or GRE to apply?</h4><p>No standardized tests required. We evaluate applicants holistically — your professional experience, goals, and motivation matter far more than test scores.</p></div>
+    <div class="faq-item"><h4>How long does each program take?</h4><p>Programs range from 8 to 16 weeks depending on specialization. Most students dedicate 10–15 hours per week, making it compatible with full-time employment.</p></div>
+    <div class="faq-item"><h4>Is financial aid or scholarships available?</h4><p>Yes. We offer merit-based scholarships covering up to 40% of tuition, as well as income-share agreements and monthly payment plans. Contact us to learn more.</p></div>
+    <div class="faq-item"><h4>Will my employer recognize this credential?</h4><p>Our dual-certificate model pairs our ElevateMBA credential with a degree from one of our 40+ accredited university partners, recognized globally by employers.</p></div>
+    <div class="faq-item"><h4>Can I work full-time while studying?</h4><p>Absolutely — and most of our students do. All live sessions are recorded. The curriculum is designed for working professionals in demanding careers.</p></div>
+    <div class="faq-item"><h4>What career support do I receive?</h4><p>Every graduate gets 12 months of career support: dedicated coaches, resume & LinkedIn optimization, mock interviews, recruiter introductions, and alumni networking events.</p></div>
+  </div>
+</section>
+
+<footer>
+  <div class="footer-grid">
+    <div class="footer-brand"><a href="index.html" class="logo">Elevate<span>MBA</span></a><p>World-class business education for the digital age.</p></div>
+    <div class="footer-col"><h4>Programs</h4><ul><li><a href="courses.html">Strategy</a></li><li><a href="courses.html">Finance & FinTech</a></li><li><a href="courses.html">AI & Data</a></li><li><a href="courses.html">Marketing</a></li></ul></div>
+    <div class="footer-col"><h4>Company</h4><ul><li><a href="about.html">About Us</a></li><li><a href="faculty.html">Faculty</a></li><li><a href="testimonials.html">Alumni</a></li><li><a href="contact.html">Admissions</a></li></ul></div>
+    <div class="footer-col"><h4>Support</h4><ul><li><a href="contact.html">Help Center</a></li><li><a href="contact.html">Scholarships</a></li><li><a href="contact.html">Financing</a></li></ul></div>
+  </div>
+  <div class="footer-bottom"><p>© 2025 ElevateM.BA — All rights reserved.</p><p>Accredited · AACSB Candidate · AMBA Member</p></div>
+</footer>
+<script src="main.js"></script>
+</body>
+</html>

@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Faculty – ElevateMBA</title>
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<nav>
+  <a href="index.html" class="logo">Elevate<span>MBA</span></a>
+  <ul class="nav-links">
+    <li><a href="index.html">Home</a></li>
+    <li><a href="courses.html">Courses</a></li>
+    <li><a href="about.html">About</a></li>
+    <li><a href="faculty.html" class="active">Faculty</a></li>
+    <li><a href="testimonials.html">Alumni</a></li>
+    <li><a href="contact.html">Contact</a></li>
+  </ul>
+  <a href="contact.html" class="nav-cta">Apply Now</a>
+  <div class="hamburger" onclick="toggleMenu()"><span></span><span></span><span></span></div>
+</nav>
+<div class="mobile-nav" id="mobileMenu">
+  <a href="index.html">Home</a><a href="courses.html">Courses</a><a href="about.html">About</a>
+  <a href="faculty.html">Faculty</a><a href="testimonials.html">Alumni</a><a href="contact.html">Contact</a>
+</div>
+
+<div class="page-hero">
+  <div class="page-hero-bg"></div>
+  <span class="section-tag">World-Class Instructors</span>
+  <h1 class="section-title">Learn from the Best<br>in the Business</h1>
+  <p class="section-sub">Our faculty aren't just academics — they're practitioners who've built companies, led global teams, and shaped industries. They bring the real world into every lesson.</p>
+</div>
+
+<section style="background:var(--white)">
+  <div class="faculty-grid">
+
+    <div class="faculty-card">
+      <div class="faculty-avatar fa-1">👩‍💼</div>
+      <div class="faculty-name">Dr. Sarah Chen</div>
+      <div class="faculty-role">Strategy & Innovation</div>
+      <p class="faculty-bio">Former McKinsey Partner. HBS PhD. Advised 60+ Fortune 500 companies on digital transformation and growth strategy across 15 countries.</p>
+      <span class="faculty-tag">Strategy · Innovation</span>
+    </div>
+
+    <div class="faculty-card">
+      <div class="faculty-avatar fa-2">👨‍💻</div>
+      <div class="faculty-name">Prof. James Okafor</div>
+      <div class="faculty-role">FinTech & Investment</div>
+      <p class="faculty-bio">Ex-Goldman Sachs VP. Stanford GSB. Pioneer in algorithmic trading and crypto-asset valuation. Author of "The FinTech Playbook."</p>
+      <span class="faculty-tag">Finance · FinTech</span>
+    </div>
+
+    <div class="faculty-card">
+      <div class="faculty-avatar fa-3">👩‍🔬</div>
+      <div class="faculty-name">Dr. Priya Nair</div>
+      <div class="faculty-role">AI & Data Strategy</div>
+      <p class="faculty-bio">Former Google AI Research Lead. MIT Media Lab. Specializes in responsible AI deployment at enterprise scale and data governance frameworks.</p>
+      <span class="faculty-tag">AI · Data · Tech</span>
+    </div>
+
+    <div class="faculty-card">
+      <div class="faculty-avatar fa-4">👨‍🏫</div>
+      <div class="faculty-name">Prof. Marcus Rivera</div>
+      <div class="faculty-role">Marketing & Growth</div>
+      <p class="faculty-bio">Built growth engines at Spotify, Airbnb, and Shopify. Wharton MBA. Author of "The Growth Playbook." Advisor to 30+ startups.</p>
+      <span class="faculty-tag">Marketing · Growth</span>
+    </div>
+
+    <div class="faculty-card">
+      <div class="faculty-avatar fa-5">👩‍⚖️</div>
+      <div class="faculty-name">Dr. Amara Diallo</div>
+      <div class="faculty-role">Leadership & HR</div>
+      <p class="faculty-bio">Former CHRO at Unilever. Oxford DPhil in Organizational Behavior. Expert in cross-cultural leadership and executive coaching.</p>
+      <span class="faculty-tag">Leadership · HR</span>
+    </div>
+
+    <div class="faculty-card">
+      <div class="faculty-avatar fa-6">👨‍🔧</div>
+      <div class="faculty-name">Prof. Daniel Kovač</div>
+      <div class="faculty-role">Operations & Supply Chain</div>
+      <p class="faculty-bio">Ex-Amazon VP of Operations. INSEAD MBA. Designed global supply chain systems handling $20B+ in annual transactions.</p>
+      <span class="faculty-tag">Operations · Logistics</span>
+    </div>
+
+  </div>
+</section>
+
+<!-- ADVISORY BOARD -->
+<section style="background:var(--ink)">
+  <div class="text-center" style="margin-bottom:3rem">
+    <span class="section-tag" style="color:var(--gold-light)">Industry Advisory Board</span>
+    <h2 class="section-title" style="color:var(--white)">Backed by Global Leaders</h2>
+    <p class="section-sub">Our curriculum is shaped by an advisory board of senior executives from the world's most influential organizations.</p>
+  </div>
+  <div class="partners-strip" style="justify-content:center">
+    <div class="partner-chip">McKinsey & Company</div>
+    <div class="partner-chip">Goldman Sachs</div>
+    <div class="partner-chip">Google DeepMind</div>
+    <div class="partner-chip">Unilever Global</div>
+    <div class="partner-chip">Sequoia Capital</div>
+    <div class="partner-chip">Boston Consulting Group</div>
+    <div class="partner-chip">Microsoft Azure</div>
+    <div class="partner-chip">JP Morgan Chase</div>
+    <div class="partner-chip">Amazon Web Services</div>
+    <div class="partner-chip">Bain & Company</div>
+  </div>
+</section>
+
+<section class="cta-banner">
+  <h2>Learn Directly from Industry Legends</h2>
+  <p>Reserve your spot in the next cohort before seats fill up.</p>
+  <a href="contact.html" class="btn-primary">Apply for Admission →</a>
+</section>
+
+<footer>
+  <div class="footer-grid">
+    <div class="footer-brand"><a href="index.html" class="logo">Elevate<span>MBA</span></a><p>World-class business education for the digital age.</p></div>
+    <div class="footer-col"><h4>Programs</h4><ul><li><a href="courses.html">Strategy</a></li><li><a href="courses.html">Finance & FinTech</a></li><li><a href="courses.html">AI & Data</a></li><li><a href="courses.html">Marketing</a></li></ul></div>
+    <div class="footer-col"><h4>Company</h4><ul><li><a href="about.html">About Us</a></li><li><a href="faculty.html">Faculty</a></li><li><a href="testimonials.html">Alumni</a></li><li><a href="contact.html">Admissions</a></li></ul></div>
+    <div class="footer-col"><h4>Support</h4><ul><li><a href="contact.html">Help Center</a></li><li><a href="contact.html">Scholarships</a></li><li><a href="contact.html">Financing</a></li></ul></div>
+  </div>
+  <div class="footer-bottom"><p>© 2025 ElevateM.BA — All rights reserved.</p><p>Accredited · AACSB Candidate · AMBA Member</p></div>
+</footer>
+<script src="main.js"></script>
+</body>
+</html>
